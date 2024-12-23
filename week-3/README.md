@@ -28,3 +28,6 @@ The number of a ticket is a 6-digit number. A ticket is lucky when the sum of th
 
 ### TASK 8
 Check whether only one of 2 given numbers is odd.
+
+### TASK 9
+Check if all digits of a 3-digit number are different.
