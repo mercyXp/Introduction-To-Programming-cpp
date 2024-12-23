@@ -15,3 +15,6 @@ You are given 2 integers a and b that are the parameters of a linear equation ax
 ## TASK 5
 You are given an integer number `a` in the decimal number system. You need to convert this number from the decimal number system to the binary number system. (a < 17)
 
+## TASK 6
+You are given two integers, swap them without using a third variable.Input must contain two integers a and b.
+for example: 2  4   , 4  2
