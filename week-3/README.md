@@ -36,3 +36,9 @@ Check if all digits of a 3-digit number are different.
 Solve the following equation: ax2+bx+c = 0
 Input: Contains 3 integer numbers: a,b,c (|a,b,c|<=1000).
 Output: The number of the equation's roots, then all roots in an ascending order. If you cannot do this, output "-1".
+
+### TASK 11
+Find the angle between hour and minute hands using time on the analog clock (12-hour format).
+In such a clock, the hour hand moves only once per hour.
+Input:Contains 2 integer numbers: the values of the hour H (1≤H≤12) and minute M (0≤M≤59) hands.
+Output:The angle between the hands in degrees.
