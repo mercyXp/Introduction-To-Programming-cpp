@@ -21,3 +21,10 @@ If the number is a palindrome, output 1, otherwise output 0.
 
 ### TASK 6
 Write the name of the day by its number.The ouput should be the name of the day (the week starts with Monday).
+
+### TASK 7
+Check whether the number of a ticket is lucky or not.
+The number of a ticket is a 6-digit number. A ticket is lucky when the sum of the first 3 digits is equal to the sum of the last 3 digits.
+
+### TASK 8
+Check whether only one of 2 given numbers is odd.
