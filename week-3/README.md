@@ -6,3 +6,6 @@ You need to output the odd one.
 
 ## TASK 2
 Find the median number of 3 given integers.
+
+## TASK 3
+Sort 3 given numbers in an ascending order.
