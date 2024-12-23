@@ -19,3 +19,5 @@ Check whether the given 4-digit number is a palindrome.
 (A palindrome is a number that is read backwards the same way as forwards, e.g. "121").
 If the number is a palindrome, output 1, otherwise output 0.
 
+### TASK 6
+Write the name of the day by its number.The ouput should be the name of the day (the week starts with Monday).
