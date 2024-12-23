@@ -1,5 +1,8 @@
 /*
-The median of a set of numbers is defined as the value that separates the higher half from the lower half of the data set. It is often considered the "middle" value when the numbers are arranged in either ascending or descending order.
+The median of a set of numbers is defined as the value 
+that separates the higher half from the lower half of the data set.
+ It is often considered the "middle" value when the numbers are 
+ arranged in either ascending or descending order.
 */
 #include <iostream>
 
