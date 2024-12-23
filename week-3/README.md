@@ -31,3 +31,8 @@ Check whether only one of 2 given numbers is odd.
 
 ### TASK 9
 Check if all digits of a 3-digit number are different.
+
+### TASK 10
+Solve the following equation: ax2+bx+c = 0
+Input: Contains 3 integer numbers: a,b,c (|a,b,c|<=1000).
+Output: The number of the equation's roots, then all roots in an ascending order. If you cannot do this, output "-1".
