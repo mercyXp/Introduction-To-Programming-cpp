@@ -12,3 +12,6 @@ You receive a 3-digit number a. Spit it into it's single digits. For example: 12
 ## TASK 4
 You are given 2 integers a and b that are the parameters of a linear equation ax+b = 0. You need to solve this equation.
 
+## TASK 5
+You are given an integer number `a` in the decimal number system. You need to convert this number from the decimal number system to the binary number system. (a < 17)
+
