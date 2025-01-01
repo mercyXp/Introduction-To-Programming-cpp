@@ -1,36 +1,33 @@
-cpp
-🟥 include <iostream> include <cmath>
+#include <iostream>
 
 using namespace std;
 
-int main() {
-    int H, M;
-    cin >> H >> M;
+int main() 
+{
+    int H, M; //H=hour, M=minutes
+    double angle;
 
-    // Убедимся, что ввод находится в допустимом диапазоне
-    if (H < 0 || H > 23 || M < 0 || M > 59) {
-        cout << "Invalid input" << endl;
-        return 1;
+    cin>>H>>M;
+
+    H %= 12;
+
+    //angle of the hour hand
+    double hourAngle = (H + M / 60.0) * 30; // 30 degrees per hour
+    //angle of the minute hand
+    double minuteAngle = M * 6.0; // 6 degrees per minute
+
+    //difference between the two angles
+    angle = hourAngle - minuteAngle;
+
+    //is angle is positive
+    if (angle < 0) {
+        angle += 360.0;
     }
 
-    // Преобразуем часы в 12-часовой формат
-    H = H % 12;
+    //smaller angle between the two possible angles
+    angle = angle <= 180.0 ? angle : 360.0 - angle;
 
-    // Угол часовой стрелки (каждый час = 30°, каждая минута = 0.5°)
-    double hourAngle = H  30 + M  0.5;
-    // Угол минутной стрелки (каждая минута = 6°)
-    double minuteAngle = M * 6;
+    cout << angle;
 
-    // Находим разницу углов
-    double angle = abs(hourAngle - minuteAngle);
-
-    // Угол должен быть не больше 180°
-    if (angle > 180) {
-        angle = 360 - angle;
-    }
-
-    // Выводим угол как целое число
-    cout << static_cast<int>(angle) << endl;
-
-    return 0;
+    return 0; 
 }

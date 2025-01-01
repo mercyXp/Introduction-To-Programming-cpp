@@ -42,3 +42,4 @@ Find the angle between hour and minute hands using time on the analog clock (12-
 In such a clock, the hour hand moves only once per hour.
 Input:Contains 2 integer numbers: the values of the hour H (1≤H≤12) and minute M (0≤M≤59) hands.
 Output:The angle between the hands in degrees.
+<a href="https://rutube.ru/video/377774558e07140cd16b7f0d7d30f0bf/">explanation</a>
