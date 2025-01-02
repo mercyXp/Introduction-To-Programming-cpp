@@ -18,3 +18,20 @@ Find the first n prime numbers.The first n prime numbers in an ascending order.
 ### TASK 6
 Find the Least Common Multiple of 2 numbers.
 The least common multiple of two numbers is the smallest number that is divisible by each of those numbers.
+
+### TASK 7
+Find the Greatest Common Divisor of 2 numbers(a and b).
+The greatest common divisor of two numbers is the largest number that is a factor of each of those numbers.
+
+### TASK 8
+Find the factorial of a number n (n!) (1 ≤ n ≤ 12).
+n! = 1*2*3*…*n
+
+### TAKS 12
+Check whether a integer number is palindrome.
+A palindrome is a string that reads the same in either direction (left to right or right to left). For example, the number 543345 is a palindrome.
+If n is palindrome then write "Yes" and "No" in other cases.
+
+### TASK 13
+Check whether a integer number is power of two.
+
