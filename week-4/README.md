@@ -16,3 +16,5 @@ Find all prime numbers between 1 and n (included n itself).All prime numbers bet
 Find the first n prime numbers.The first n prime numbers in an ascending order.
 
 ### TASK 6
+Find the Least Common Multiple of 2 numbers.
+The least common multiple of two numbers is the smallest number that is divisible by each of those numbers.
