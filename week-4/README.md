@@ -11,3 +11,8 @@ Determine whether a positive integer number n is prime. If n is prime, write "Ye
 
 ### TASK 4
 Find all prime numbers between 1 and n (included n itself).All prime numbers between 1 and n in an ascending order.
+
+### TASK 5
+Find the first n prime numbers.The first n prime numbers in an ascending order.
+
+### TASK 6
