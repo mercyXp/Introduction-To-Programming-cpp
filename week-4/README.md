@@ -1,3 +1,13 @@
 # LOOPS
 
 ### TASK 1
+Find the greatest divisor of an integer number n (except the number n itself).
+
+### TASK 2
+Write all integer numbers between 1 and n.
+
+### TASK 3
+Determine whether a positive integer number n is prime. If n is prime, write "Yes", in other case - "No".
+
+### TASK 4
+Find all prime numbers between 1 and n (included n itself).All prime numbers between 1 and n in an ascending order.
