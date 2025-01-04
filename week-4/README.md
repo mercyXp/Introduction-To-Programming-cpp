@@ -27,6 +27,9 @@ The greatest common divisor of two numbers is the largest number that is a facto
 Find the factorial of a number n (n!) (1 ≤ n ≤ 12).
 n! = 1*2*3*…*n
 
+
+### TASK 10
+
 ### TAKS 12
 Check whether a integer number is palindrome.
 A palindrome is a string that reads the same in either direction (left to right or right to left). For example, the number 543345 is a palindrome.
