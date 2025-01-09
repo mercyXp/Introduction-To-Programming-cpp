@@ -20,27 +20,39 @@ int main() {
 }*/
 
 #include <iostream>
-#include <cmath>
 
 using namespace std;
-
-int main() {
-    int H, M;
-    cin >> H >> M;
-
-    // checking input data
-    if (H < 1 || H > 12 || M < 0 || M > 59) {
-        return 1;
+ 
+// Function for calculating the angle between the hour and minute hands
+int findAngle(int hh, int mm)
+{
+// processing 24-hour recording
+    hh = hh % 12;
+ 
+    // find the position of the clock hand
+    int h = (hh * 360) / 12 + (mm * 360) / (12 * 60);
+ 
+    // find the position of the minute hand
+    int m = (mm * 360) / (60);
+ 
+    // calculating the angle difference
+    int angle = abs(h - m);
+ 
+    // we count the smaller angle and return it
+    if (angle > 180) {
+        angle = 360 - angle;
     }
 
-    double minute_angle = 6 * M;
-    double hour_angle = 30 * H + 0.5 * M;
+return angle;
+}
 
-    double angle = abs( hour_angle - minute_angle);
-    // The angle should not exceed 180 degrees
-    angle = min(angle, 360 - angle);
-
-    cout <<angle;
-
+// Clock angle problem
+int main()
+{
+    int hh, mm;
+    cin>>hh>>mm;
+ 
+    cout << findAngle(hh, mm);
+ 
     return 0;
 }
